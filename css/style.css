@@ -87,7 +87,7 @@ ul {
   background-size: cover;
   margin-right: 3rem;  
   border-radius: 10px;
-  border: 1px dotted steelblue;
+  border: 1px solid steelblue;
 }
 
 .btnCV {
@@ -167,7 +167,7 @@ ul {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    border: 1px dotted steelblue;
+    border: 1px solid steelblue;
     margin: 1rem 0;
   }
 
