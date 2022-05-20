@@ -20,8 +20,6 @@ body {
   border-radius: 10px;
   padding: 2rem;
   margin: 1rem auto;
-  transform: translateY(-1500px);
-  animation: content 1s forwards ease-in;
 }
 
 a {
@@ -99,7 +97,6 @@ ul {
   padding: 5px 10px;
   display: block;
   cursor: pointer;
-  transition: background 0.2s;
 }
 
 .btnCV:hover{
@@ -151,7 +148,6 @@ ul {
     background: #f4f4f4;
     border: none;
     padding: 1rem;
-    transform: translateX(-600px);
   }
 
   .header {
