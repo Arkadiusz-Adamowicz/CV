@@ -8,14 +8,14 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background:   steelblue;   
-  line-height: 1.8; 
+  background: steelblue;
+  line-height: 1.8;
   overflow-x: hidden;
 }
 
 .container {
   max-width: 960px;
-  background : #f4f4f4;
+  background: #f4f4f4;
   border: 1px solid #000;
   border-radius: 10px;
   padding: 2rem;
@@ -24,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color:#000;
+  color: #000;
 }
 
 p {
@@ -32,8 +32,8 @@ p {
 }
 
 h1 {
-text-align: center;
-vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
 }
 
 h2 {
@@ -43,7 +43,8 @@ h2 {
 span {
   color: gray;
   font-style: italic;
-  font-weight: lighter;}
+  font-weight: lighter;
+}
 
 .lead {
   padding-top: 0;
@@ -69,7 +70,7 @@ adress ul {
   padding-bottom: 1rem;
 }
 
-ul { 
+ul {
   padding: 0 2rem;
   align-items: center;
 }
@@ -83,7 +84,7 @@ ul {
   height: 150px;
   background-image: url('../foto.png');
   background-size: cover;
-  margin-right: 3rem;  
+  margin-right: 3rem;
   border-radius: 10px;
   border: 1px solid steelblue;
 }
@@ -97,20 +98,19 @@ ul {
   padding: 5px 10px;
   display: block;
   cursor: pointer;
-  transition: background 0.3s; 
+  transition: background 0.3s;
 }
 
-.btnCV:hover{
+.btnCV:hover {
   color: #f4f4f4;
-  background: steelblue; 
+  background: steelblue;
 }
 
-.btnCV:focus{
+.btnCV:focus {
   outline: none;
   color: #f4f4f4;
-  background: steelblue; 
+  background: steelblue;
 }
-
 
 .fa-solid {
   margin: 0.5rem;
@@ -128,20 +128,25 @@ ul {
   grid-gap: 2rem;
 }
 
-.interest-card-heading  {
+.interest-card-heading {
   display: flex;
   align-items: center;
+}
+
+.rodo {
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 @keyframes content {
   to {
     transform: translateY(0);
   }
-} 
+}
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   body {
-    background: #f4f4f4; 
+    background: #f4f4f4;
     line-height: 1.5;
   }
 
@@ -174,7 +179,7 @@ ul {
   }
 
   .header .title {
-   text-align: center;
+    text-align: center;
   }
 
   .header .title h1 {
@@ -182,14 +187,14 @@ ul {
   }
 
   .lead {
-    padding-bottom: 0.5rem  
+    padding-bottom: 0.5rem;
   }
 
   .header .title span {
     margin: 0;
   }
 
-  .header .title  .btnCV {
+  .header .title .btnCV {
     margin: 1rem auto;
   }
 
@@ -210,5 +215,3 @@ ul {
     margin-bottom: 1rem;
   }
 }
-
-
